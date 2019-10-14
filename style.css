@@ -1,0 +1,89 @@
+header{
+    font-family: "calibri", sans-serif;
+}
+
+#logo_anim {
+    position:absolute;
+    background: #f20d1c;
+    border-radius: 1.5em;
+    width: 160px;
+    height: 125px;
+    margin-top: -2.6%;
+    margin-left: 10%;
+    animation-name: logoAnim;
+    animation: forwards;
+    animation-duration: 1s;
+
+}
+
+@keyframes logoAnim {
+    0% {height: 125px;}
+    100% {transform: translateY(200px);}
+}
+
+
+p {
+    position: relative;
+    color: white;
+    border: 2px white solid;
+    width: 80%;
+    height: auto;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 42%;
+    margin-left: 10%;
+
+
+}
+
+section {
+    width: auto;
+    padding-left:60%;
+    font-weight: bolder;
+    font-size: medium;
+}
+ul li {
+    display: inline-block;
+
+}
+
+#search {
+    margin-right: 2%;
+}
+
+#language {
+    margin-right: 13%;
+    margin-left: 13%;
+}
+
+#log_in {
+    margin-right: 2%;
+}
+
+nav {
+    background: darkgray;
+    border-bottom: gray 2px solid;
+    height: auto;
+}
+
+nav .background_white:hover {
+    background: white;
+}
+
+.menu {
+    margin-left: 20%;
+    font-size: medium;
+    text-align: center;
+}
+.menu li {
+    margin-left: 4%;
+}
+.background_white:hover {
+
+}
+
+
+
+
