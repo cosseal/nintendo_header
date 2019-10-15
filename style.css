@@ -7,20 +7,15 @@ header{
     background: #f20d1c;
     border-radius: 1.5em;
     width: 160px;
-    height: 125px;
-    margin-top: -2.6%;
+    height: 300px;
+    margin-top: -215px;
     margin-left: 10%;
-    animation-name: logoAnim;
-    animation: forwards;
-    animation-duration: 1s;
-
 }
 
-@keyframes logoAnim {
-    0% {height: 125px;}
-    100% {transform: translateY(200px);}
+#logo_anim:hover {
+    transform: translateY(18px);
+    transition-duration: 0.5s;
 }
-
 
 p {
     position: relative;
@@ -32,25 +27,26 @@ p {
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
-    margin-top: 42%;
+    margin-top: 235px;
     margin-left: 10%;
-
-
 }
 
 section {
     width: auto;
+    height: 12px;
     padding-left:60%;
     font-weight: bolder;
     font-size: medium;
 }
+
 ul li {
     display: inline-block;
-
 }
+
 
 #search {
     margin-right: 2%;
+    size: 20px;
 }
 
 #language {
@@ -60,30 +56,54 @@ ul li {
 
 #log_in {
     margin-right: 2%;
+    background: #f20d1c;
+    color: white;
+    padding: 4px;
+    border-radius: 0.5em;
 }
 
 nav {
     background: darkgray;
     border-bottom: gray 2px solid;
-    height: auto;
+    height: 25px;
+    width: auto;
 }
 
-nav .background_white:hover {
+.background_white:hover {
     background: white;
+    height: 25px;
 }
 
 .menu {
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: medium;
     text-align: center;
 }
 .menu li {
-    margin-left: 4%;
+    margin-left: 3%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: auto;
 }
-.background_white:hover {
-
+#background_red:hover {
+    background: #f20d1c;
+    height: 25px;
 }
 
+#background_orange:hover {
+    background: orangered;
+    height: 25px;
+}
+
+#background_clearred:hover {
+    background: rgba(242, 13, 28, 0.68);
+    height: 25px;
+}
+
+#background_blue:hover {
+    background: dodgerblue;
+    height: 25px;
+}
 
 
 
